@@ -1,0 +1,13 @@
+.popup-login__container {
+	min-width: 600px;
+	height: 550px;
+	background-color: white;
+	z-index: 20;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px 104px;
+	box-sizing: border-box;
+	position: relative;
+}

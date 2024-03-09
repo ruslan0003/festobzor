@@ -1,0 +1,122 @@
+.why-us {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 12.8%;
+    box-sizing: border-box;
+  }
+  
+  .why-us__title-block {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .why-us__title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #363848;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .why-us__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #363848;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+  
+  .why-us__cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 60px 0 0 0;
+    padding: 0;
+  }
+  
+  .why-us__card {
+    width: 30%;
+    min-height: 350px;
+    height: auto;
+    background-color: #fff;
+    padding: 40px 40px 68px 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    transition: box-shadow .3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .why-us__card:hover {
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  }
+  
+  .why-us__icon {
+    width: 42px;
+    height: auto;
+  }
+  
+  .why-us__card:not(:first-child) {
+    margin-left: 30px;
+  }
+  
+  .why-us__card-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 28px 0 0 0;
+    padding: 0;
+  }
+  
+  .why-us__card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363848;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+  
+  .why-us__icon-box {
+    width: 81px;
+    height: 81px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .why-us__icon-box_orange {
+    background-color: #FF754C;
+  }
+  
+  .why-us__icon-box_purple {
+    background-color: #BF58D9;
+  }
+  
+  .why-us__icon-box_blue {
+    background-color: #3BB2F4;
+  }

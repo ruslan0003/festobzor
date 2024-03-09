@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+@import url('./components/banner/banner.css');
+@import url('./components/multistepForm/multistepForm.css');
+@import url('./components/card/card.css');
+@import url('./components/catalog/catalog.css');
+@import url('./components/footer/footer.css');
+@import url('./components/header/header.css');
+@import url('./components/login/login.css');
+@import url('./components/reasons/reasons.css');
+@import url('./components/register/register.css');
+@import url('./components/subscribe/subscribe.css');
+@import url('./components/tabs/tabs.css');
+@import url('./css/buttons.css');
+@import url('./css/popup.css');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  max-width: 1920px;
+  position: relative;
+  z-index: 0;
+  min-width: 320px;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

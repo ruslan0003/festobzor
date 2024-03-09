@@ -1,0 +1,226 @@
+.multistep-form__container {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0;
+  }
+  
+  .multistep-form__container header {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+  }
+  
+  .multistep-form__container .multistep-form__form-outer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -15px;
+  }
+  
+  .multistep-form__container .multistep-form__form-outer form {
+    display: flex;
+    width: 400%;
+  }
+  
+  .multistep-form__form-outer form .multistep-form__page {
+    width: 25%;
+    transition: margin-left 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .multistep-form__form-outer form .multistep-form__page .multistep-form__title {
+    font-size: 22px;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #363848;
+    padding-bottom: 15px;
+  }
+  
+  .multistep-form__form-outer form .multistep-form__page .multistep-form__field {
+    width: 100%;
+    height: 45px;
+    margin: 28px 0;
+    display: flex;
+    position: relative;
+  }
+  
+  form .multistep-form__page .multistep-form__field .multistep-form__label {
+    position: absolute;
+    top: -27px;
+    font-weight: 500;
+  }
+  
+  form .multistep-form__page .multistep-form__field input {
+    width: 100%;
+      max-width: 400px;
+      height: 60px;
+      border: 1px solid #C2C2C2;
+      border-radius: 100px;
+      padding: 16px 30px;
+      margin: 0;
+      box-sizing: border-box;
+      appearance: none;
+  }
+  
+  form .multistep-form__page .multistep-form__field select {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #C2C2C2;
+    border-radius: 100px;
+    padding: 16px 30px;
+    box-sizing: border-box;
+  }
+  
+  form .multistep-form__page .multistep-form__field button {
+    width: 100%;
+    height: 60px;
+    padding: 0 28px;
+    border: none;
+    background-color: #5F4BDB;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition: 0.5s ease;
+    margin-top: 10px;
+  }
+  
+  .multistep-form__btns {
+    padding: 25px 0 0 0;
+    box-sizing: border-box;
+  }
+  
+  form .multistep-form__page .multistep-form__field button:hover {
+    background: #FE8D4D;
+  }
+  
+  form .multistep-form__page .multistep-form__btns button {
+    margin-top: -20px !important;
+  }
+  
+  form .multistep-form__page .multistep-form__btns button.prev {
+    margin-right: 3px;
+    font-size: 16px;
+    background: #DBD7F4;
+    color: #363848;
+  }
+  
+  form .multistep-form__page .multistep-form__btns button.prev:hover {
+    background: #c3bbff;
+  }
+  
+  
+  
+  form .multistep-form__page .multistep-form__btns button.next {
+    margin-left: 3px;
+  }
+  
+  .multistep-form__container .multistep-form__progress-bar {
+    display: flex;
+    margin: 40px 0;
+    user-select: none;
+  }
+  
+  .multistep-form__container .multistep-form__progress-bar .multistep-form__step {
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .multistep-form__container .multistep-form__progress-bar .multistep-form__step p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    padding: 0;
+      color: #363848;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #DBD7F4;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet.multistep-form__active {
+    border-color: #5F4BDB;
+    background: #5F4BDB;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet.multistep-form__active span {
+    display: none;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet:before,
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet:after {
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -71px;
+    height: 3px;
+    width: 280%;
+    background: #DBD7F4;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__bullet.multistep-form__active:after {
+    background: #5F4BDB;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step:last-child .multistep-form__bullet:before,
+  .multistep-form__progress-bar .multistep-form__step:last-child .multistep-form__bullet:after {
+    display: none;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step p.multistep-form__active {
+    color: #5F4BDB;
+    transition: 0.2s linear;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__check {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .multistep-form__progress-bar .multistep-form__step .multistep-form__check.multistep-form__active {
+    display: block;
+    color: #fff;
+  }

@@ -1,0 +1,194 @@
+.catalog__card {
+    width: 100%;
+    max-width: 509px;
+    min-height: 567px;
+    max-height: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    /*box-shadow: 0px 7px 22px 0px #8F86C312;*/
+    border-radius: 25px;
+    transition: box-shadow .3s linear;
+  }
+  
+  .catalog__card:hover {
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  }
+  
+  .catalog__card-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #363848;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .catalog__city {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FE8D4D;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    align-self: flex-start;
+  }
+  
+  .catalog__card-image {
+    border-radius: 25px 25px 0 0;
+    height: 318px;
+    background-color: #C4C4C4;
+    background-image: url('https://images.unsplash.com/photo-1597258071486-bc1754c01349?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1767&q=80');
+    background-size: cover;
+  }
+  
+  .catalog__card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #363848;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .catalog__card-text_bold {
+    font-weight: 500;
+  }
+  
+  .catalog__button-like {
+    width: 60px;
+    height: 60px;
+    font-family: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 100px;
+    background: #FF477E;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 1s;
+    transform-origin: 50% 50%;
+  }
+  
+  .catalog__button-like:hover {
+    transform: scale(1.2);
+  }
+  
+  .catalog__button-like svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.25rem;
+  }
+  
+  .catalog__card-upper-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .catalog__card-date-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 93px;
+    height: auto;
+    background: #363848;
+    border-radius: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: -70px 0 0 0;
+  }
+  
+  .catalog__date {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catalog__month {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catalog__titles-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0 0 20px;
+    max-width: 300px;
+  }
+  
+  .catalog__info-block {
+    padding: 0 30px 25px 30px;
+    box-sizing: border-box;
+  }
+  
+  .catalog__buttons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .catalog__button-open {
+    max-width: 210px;
+  }
+  
+  .catalog__button-apply {
+    margin-left: 15px;
+    max-width: 210px;
+  }
+  
+  .catalog__details-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .catalog__details-row:last-child {
+    margin-top: 5%;
+  }
+  
+  .catalog__info-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .catalog__city-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .catalog__details-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 0;
+  }
