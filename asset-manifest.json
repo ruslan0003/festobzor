@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/festobzor/static/css/main.79ddfcdd.css",
-    "main.js": "/festobzor/static/js/main.0c89684f.js",
+    "main.js": "/festobzor/static/js/main.a6f89272.js",
     "static/js/358.cab03bf0.chunk.js": "/festobzor/static/js/358.cab03bf0.chunk.js",
     "static/js/787.8793b732.chunk.js": "/festobzor/static/js/787.8793b732.chunk.js",
     "static/media/festobzor-logo.png": "/festobzor/static/media/festobzor-logo.11bcb06a50f442986050.png",
@@ -21,12 +21,12 @@
     "static/media/close-icon.svg": "/festobzor/static/media/close-icon.118074baed770c43e4bc4451ed78f91d.svg",
     "static/media/pin.svg": "/festobzor/static/media/pin.95f97638f4adb5a1ce29c781e2da446f.svg",
     "main.79ddfcdd.css.map": "/festobzor/static/css/main.79ddfcdd.css.map",
-    "main.0c89684f.js.map": "/festobzor/static/js/main.0c89684f.js.map",
+    "main.a6f89272.js.map": "/festobzor/static/js/main.a6f89272.js.map",
     "358.cab03bf0.chunk.js.map": "/festobzor/static/js/358.cab03bf0.chunk.js.map",
     "787.8793b732.chunk.js.map": "/festobzor/static/js/787.8793b732.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79ddfcdd.css",
-    "static/js/main.0c89684f.js"
+    "static/js/main.a6f89272.js"
   ]
 }
