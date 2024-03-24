@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename={process.env.REACT_APP_URI}>
         <Route exact path="/">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
