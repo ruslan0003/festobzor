@@ -51,7 +51,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/lazyload">
+        <Route path="/festobzor/lazyload">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -64,7 +64,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/pagination">
+        <Route path="/festobzor/pagination">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -75,7 +75,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/scroll">
+        <Route path="/festobzor/scroll">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -86,7 +86,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/virtualize">
+        <Route path="/festobzor/virtualize">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -97,7 +97,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/example">
+        <Route path="/festobzor/example">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
