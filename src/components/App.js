@@ -1,7 +1,7 @@
 import React from 'react';
 import { lazy, Suspense } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
 } from "react-router-dom";
 import './App.css';
@@ -51,7 +51,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/festobzor/lazyload">
+        <Route path="/lazyload">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -64,7 +64,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/festobzor/pagination">
+        <Route path="/pagination">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -75,7 +75,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/festobzor/scroll">
+        <Route path="/scroll">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -86,7 +86,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/festobzor/virtualize">
+        <Route path="/virtualize">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
@@ -97,7 +97,7 @@ function App() {
           <Register onCLose={closeAllPopups} isOpen={isRegisterPopupOpen} />
         </Route>
 
-        <Route path="/festobzor/example">
+        <Route path="/example">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
           <Reasons />
