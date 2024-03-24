@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/festobzor/static/css/main.79ddfcdd.css",
+    "main.js": "/festobzor/static/js/main.b575a8ff.js",
+    "static/js/358.cab03bf0.chunk.js": "/festobzor/static/js/358.cab03bf0.chunk.js",
+    "static/js/787.8793b732.chunk.js": "/festobzor/static/js/787.8793b732.chunk.js",
+    "static/media/festobzor-logo.png": "/festobzor/static/media/festobzor-logo.11bcb06a50f442986050.png",
+    "static/media/festobzor-logo-white.png": "/festobzor/static/media/festobzor-logo-white.45f3899522dd69eb5dfd.png",
+    "static/media/help.svg": "/festobzor/static/media/help.15d457581d8d38f56a9694a4ea4064c8.svg",
+    "static/media/write.svg": "/festobzor/static/media/write.c58d1d79b30bd9ad571957d825547c2b.svg",
+    "static/media/map-marker.svg": "/festobzor/static/media/map-marker.6ff1b541b03673824ed98e7d86de3a4c.svg",
+    "static/media/security.svg": "/festobzor/static/media/security.d2d1ac1fdea15ef946c77952b9e1ca0d.svg",
+    "static/media/list.svg": "/festobzor/static/media/list.eb52bbd3a87e2f0478c59a2b9ea94d1a.svg",
+    "static/media/search.svg": "/festobzor/static/media/search.8629d44c127f10ae099ebe4069d9fc18.svg",
+    "static/media/date-time.svg": "/festobzor/static/media/date-time.ff7abe463f58d6baab5f612173bf7c8f.svg",
+    "static/media/mail.svg": "/festobzor/static/media/mail.97e20b121db836adb40dded90d54834f.svg",
+    "index.html": "/festobzor/index.html",
+    "static/media/calendar.svg": "/festobzor/static/media/calendar.d93fe6a05a19329bd258304ec460727b.svg",
+    "static/media/ruble-sign.svg": "/festobzor/static/media/ruble-sign.86464f1e990c1e9bd4d4957ce9afc17b.svg",
+    "static/media/like.svg": "/festobzor/static/media/like.eff27af34343c5539edb9b489d09331b.svg",
+    "static/media/close-icon.svg": "/festobzor/static/media/close-icon.118074baed770c43e4bc4451ed78f91d.svg",
+    "static/media/pin.svg": "/festobzor/static/media/pin.95f97638f4adb5a1ce29c781e2da446f.svg",
+    "main.79ddfcdd.css.map": "/festobzor/static/css/main.79ddfcdd.css.map",
+    "main.b575a8ff.js.map": "/festobzor/static/js/main.b575a8ff.js.map",
+    "358.cab03bf0.chunk.js.map": "/festobzor/static/js/358.cab03bf0.chunk.js.map",
+    "787.8793b732.chunk.js.map": "/festobzor/static/js/787.8793b732.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79ddfcdd.css",
+    "static/js/main.b575a8ff.js"
+  ]
+}
