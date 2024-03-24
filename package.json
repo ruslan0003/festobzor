@@ -2,7 +2,7 @@
   "name": "festobzor-react2",
   "version": "0.1.0",
   "homepage": "https://ruslan0003.github.io/festobzor",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mierak/react-virtualized-grid": "^0.0.5-ALPHA",
     "@testing-library/jest-dom": "^5.16.5",
