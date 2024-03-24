@@ -3,7 +3,7 @@ import './catalog.css';
 import Card from '../card/card';
 import '../../css/buttons.css';
 
-function Catalog() {
+function catalogLazyLoad() {
   const children = [];
   for (let i = 0; i < 1000; i++) {
     children.push(<Card key={i} number={i+1}/>);
@@ -33,4 +33,4 @@ function Catalog() {
   )
 }
 
-export default Catalog;
+export default catalogLazyLoad;

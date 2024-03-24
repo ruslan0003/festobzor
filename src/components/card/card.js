@@ -5,8 +5,9 @@ import pathDeadline from '../../images/date-time.svg';
 import pathRuble from '../../images/ruble-sign.svg';
 import pathWrite from '../../images/write.svg';
 import pathLike from '../../images/like.svg';
+import PropTypes from 'prop-types';
 
-function Card() {
+function Card(props) {
   return (
     <div className="catalog__card">
       <div className="catalog__card-image"></div>
@@ -23,7 +24,7 @@ function Card() {
           </div>
           <div className="catalog__titles-column">
             <h4 className="catalog__city">Казань</h4>
-            <h4 className="catalog__card-title">33-й Международный фестиваль-конкурс детского и юношеского творчества
+            <h4 className="catalog__card-title">{props.number}-й Международный фестиваль-конкурс детского и юношеского творчества
               «Свободу попугаям!»</h4>
           </div>
         </div>
@@ -46,6 +47,10 @@ function Card() {
       </div>
     </div>
   )
+}
+
+Card.propTypes = {
+  number: PropTypes.number
 }
 
 export default Card;

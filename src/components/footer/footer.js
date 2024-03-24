@@ -39,7 +39,7 @@ function Footer() {
 
       <div className="footer__bottom">
         <p className="footer__copyright">&copy; ООО &ldquo;Первая Фестивальная Компания&rdquo;,
-          2022-2023</p>
+          2024</p>
         <p className="footer__made-by">Разработка: Ruslan Lukichev</p>
       </div>
     </section>

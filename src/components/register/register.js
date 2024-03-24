@@ -16,7 +16,7 @@ function Register(props) {
 
 Register.propTypes = {
   isOpen: PropTypes.bool,
-  onClose: PropTypes.bool
+  onClose: PropTypes.func
 }
 
 export default Register;

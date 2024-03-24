@@ -3,7 +3,7 @@ import pathCloseIcon from '../../images/close-icon.svg';
 import PropTypes from 'prop-types';
 
 function PopupWithForm(props) {
-
+console.log(props.name);
   return (
     <section className={props.isOpen ? `popup ${props.name} popup_opened` : `popup ${props.name}`}>
       <div className={`${props.name}__container`}>
@@ -21,6 +21,6 @@ export default PopupWithForm;
 PopupWithForm.propTypes = {
     children: PropTypes.node,
     isOpen: PropTypes.bool,
-    onClose: PropTypes.bool,
+    onClose: PropTypes.func,
     name: PropTypes.string
     };
