@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-      <Router basename={process.env.REACT_APP_URI}>
+      <Router basename="/festobzor">
         <Route exact path="/">
           <Header onLoginClick={handleLoginClick} onRegisterClick={handleRegisterClick} />
           <Banner />
